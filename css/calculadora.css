@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 510px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+}
+
+#visor {
+    position: relative;
+    width: 96.5%;
+    height: 75px;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.numerosGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;  
+    padding: 3px;
+}
+
+.botonGrid {
+    padding: 5px 10px;  
+    width: 135px;
+    height: 80px;
+    outline: none;
+    margin: 0.5px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+.botonGrid:active {
+    background-color: #757474;
+}
+
+.mas {
+    background-color: #3a3b3b;
+}
+.menos {
+    background-color: #3a3b3b;
+}
+.multiplicar {
+    background-color: #3a3b3b;
+}
+.dividir {
+    background-color: #3a3b3b;
+}
+.igual {
+    background-color: #3a3b3b;
+    color: white;
+    grid-row: span 4;
+    height: auto;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 5px;  
+}
+.display input {
+    background-color: blue;
+}
